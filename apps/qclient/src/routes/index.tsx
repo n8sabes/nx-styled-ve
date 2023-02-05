@@ -1,14 +1,18 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
-import FancyHeader from '../components/FancyHeader';
+import FancyCSSText from '../components/FancyCSSText';
+import FancyStyledVEText from '../components/FancyStyledVEText';
+import FancyVEText from '../components/FancyVEText';
 
 export default component$(() => {
   return (
     <div>
       <h1>
-        Welcome qclient <span class="lightning">⚡️</span>
+        Nx Styled VE <span class="lightning">⚡️</span>
       </h1>
-      <FancyHeader />
+      <FancyCSSText>Fancy CSS Text</FancyCSSText>
+      <FancyVEText>Fancy CSS Text</FancyVEText>
+      <FancyStyledVEText>Fancy Styled Text</FancyStyledVEText>
     </div>
   );
 });
