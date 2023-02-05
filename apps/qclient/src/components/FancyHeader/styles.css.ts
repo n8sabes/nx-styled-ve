@@ -10,7 +10,7 @@ export const FancyHeader = styled.header({
   borderBottom: 'none',
   selectors: {
     [`${fancy} &, ${fancy}&`]: {
-      background: 'red',
+      background: 'gold',
     },
   },
 });

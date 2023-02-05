@@ -7,9 +7,9 @@ export default component$(() => {
   // do header stuff
   return (
     <FancyHeader class={isFancy && fancy}>
-      Header, possibly fancy.
-      <br />
-      The classname it uses is {FancyHeader.className}.
+      Hello World
+      {/* <br /> */}
+      {/* The classname it uses is {FancyHeader.className}. */}
     </FancyHeader>
   )
 })
