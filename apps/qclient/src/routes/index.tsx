@@ -11,8 +11,8 @@ export default component$(() => {
         Nx Styled VE <span class="lightning">⚡️</span>
       </h1>
       <FancyCSSText>Fancy CSS Text</FancyCSSText>
-      <FancyVEText>Fancy CSS Text</FancyVEText>
-      <FancyStyledVEText>Fancy Styled Text</FancyStyledVEText>
+      <FancyVEText>Fancy VE Text</FancyVEText>
+      <FancyStyledVEText>Fancy Styled VE Text</FancyStyledVEText>
     </div>
   );
 });
